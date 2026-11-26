@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Accessibility Heatmap Overlay",
+  "version": "0.1.0",
+  "description": "Scan a page for accessibility issues and visualize them as a heatmap.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Accessibility Heatmap Overlay"
+  },
+  "background": {
+    "service_worker": "assets/background.js",
+    "type": "module"
+  }
+}
