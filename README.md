@@ -69,6 +69,9 @@ npm test
 
 ## Demo page
 
+The sample page is also deployed on Vercel: [Accessibility heatmap demo](https://accessibility-heatmap-overlay.vercel.app).
+To scan it, install the extension in Chrome using the steps above, then open the demo page.
+
 Start the Vite server:
 
 ```sh
